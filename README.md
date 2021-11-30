@@ -13,6 +13,7 @@ Control your Optoma projector via serial port (RS232)
 ## Getting started
 
 ```bash
+$ sudo apt install python3-serial
 $ export DEVICE=/dev/serial/by-id/usb-1a86_USB2.0-Ser_-if00-port0  # device name might differ
 $ python3
 >>> import optotron
